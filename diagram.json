@@ -18,14 +18,6 @@
       "top": -178.45,
       "left": 220.8,
       "attrs": { "value": "220000" }
-    },
-    {
-      "type": "wokwi-pushbutton-6mm",
-      "id": "btn1",
-      "top": -181.4,
-      "left": 349.6,
-      "rotate": 90,
-      "attrs": { "color": "green", "xray": "1" }
     }
   ],
   "connections": [
@@ -34,18 +26,10 @@
     [ "bb1:1b.f", "bb1:1t.e", "green", [ "v0" ] ],
     [ "r2:1", "bb1:1t.c", "green", [ "v0" ] ],
     [ "bb1:3b.f", "bb1:3t.e", "green", [ "v0" ] ],
-    [ "bb1:11b.j", "mega:3", "green", [ "v57.6", "h-145.9" ] ],
     [ "bb1:3b.j", "mega:4", "green", [ "v28.8", "h-76.8", "v38.4", "h-1.8" ] ],
-    [ "bb1:9b.f", "bb1:9t.e", "green", [ "v0" ] ],
-    [ "bb1:9b.g", "bb1:1b.g", "green", [ "v0" ] ],
     [ "led2:A", "bb1:3t.a", "", [ "$bb" ] ],
     [ "led2:C", "bb1:2t.a", "", [ "$bb" ] ],
-    [ "r2:2", "bb1:1t.b", "", [ "$bb" ] ],
-    [ "btn1:1.l", "bb1:11t.a", "", [ "$bb" ] ],
-    [ "btn1:2.l", "bb1:9t.a", "", [ "$bb" ] ],
-    [ "btn1:1.r", "bb1:11t.d", "", [ "$bb" ] ],
-    [ "btn1:2.r", "bb1:9t.d", "", [ "$bb" ] ],
-    [ "bb1:11t.e", "bb1:11b.f", "green", [ "v0" ] ]
+    [ "r2:2", "bb1:1t.b", "", [ "$bb" ] ]
   ],
   "dependencies": {}
 }

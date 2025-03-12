@@ -1,4 +1,4 @@
-## Code to make LED Blink 2 second on 0.5 second off
+## LED status change with push button
 
 ### Diagram
 ![alt text](other/image.png)

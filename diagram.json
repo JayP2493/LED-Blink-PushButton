@@ -18,6 +18,14 @@
       "top": -178.45,
       "left": 220.8,
       "attrs": { "value": "220000" }
+    },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn1",
+      "top": -114.2,
+      "left": 301.6,
+      "rotate": 90,
+      "attrs": { "color": "green", "xray": "1" }
     }
   ],
   "connections": [
@@ -29,7 +37,13 @@
     [ "bb1:3b.j", "mega:4", "green", [ "v28.8", "h-76.8", "v38.4", "h-1.8" ] ],
     [ "led2:A", "bb1:3t.a", "", [ "$bb" ] ],
     [ "led2:C", "bb1:2t.a", "", [ "$bb" ] ],
-    [ "r2:2", "bb1:1t.b", "", [ "$bb" ] ]
+    [ "r2:2", "bb1:1t.b", "", [ "$bb" ] ],
+    [ "mega:3", "bb1:6b.j", "green", [ "v-37.8", "h97.9" ] ],
+    [ "btn1:1.l", "bb1:6b.f", "", [ "$bb" ] ],
+    [ "btn1:2.l", "bb1:4b.f", "", [ "$bb" ] ],
+    [ "btn1:1.r", "bb1:6b.i", "", [ "$bb" ] ],
+    [ "btn1:2.r", "bb1:4b.i", "", [ "$bb" ] ],
+    [ "btn1:2.r", "bb1:1b.i", "green", [ "v0" ] ]
   ],
   "dependencies": {}
 }

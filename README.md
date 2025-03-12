@@ -4,5 +4,5 @@
 ![alt text](other/image.png)
 
 ### Video of working
-<video controls src="other/Wokwi Simulator - LED Blink - Mega - Visual Studio Code 2025-03-12 16-53-03.mp4" title="Title"></video>
-Path: other\Wokwi Simulator - LED Blink - Mega - Visual Studio Code 2025-03-12 16-53-03.mp4
+<video controls src="other/Wokwi Simulator - LED Push Button - Mega - Visual Studio Code 2025-03-12 17-39-10.mp4" title="Title"></video>
+Path: other/Wokwi Simulator - LED Push Button - Mega - Visual Studio Code 2025-03-12 17-39-10.mp4
